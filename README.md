@@ -22,4 +22,4 @@ sem usar nenhum framework ou biblioteca externa.
 - CSS puro com custom properties (variáveis CSS)
 - JavaScript vanilla
 
-> Sem React, sem Tailwind, sem dependências. Um arquivo só.
+> Sem React, sem Tailwind, sem dependências. 
