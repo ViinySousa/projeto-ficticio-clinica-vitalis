@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vitalis | Reabilitação & Medicina Integrada</title>
+  <meta name="description" content="Santuário de restauração. Avaliação personalizada com equipe especializada. Recupere seu movimento e restaure sua vida.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..600;1,9..40,400&family=Playfair+Display:ital,wght@0,600..900;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__container">
+      
+      <a href="#" class="logo" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="logo__icon">
+          <path d="M2 12h4l1.5-3.5 1.5 7 1.5-10.5 1.5 14L15 12h7"></path>
+        </svg>
+        <div class="logo__text">
+          <span class="logo__title">Vitalis</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Menu principal">
+        <ul class="nav-links">
+          <li><a href="#solucoes" class="nav-link">Especialidades</a></li>
+          <li><a href="#sobre" class="nav-link">A Clínica</a></li>
+          <li><a href="#equipe" class="nav-link">Corpo Clínico</a></li>
+          <li><a href="#depoimentos" class="nav-link">Relatos</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="mobile-menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+    <section class="hero">
+      
+      <svg class="hero__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path fill="var(--color-fresh-mint)" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90,-16.3,88.5,-0.9C86.9,14.6,81.1,29.1,72.7,41.4C64.3,53.6,53.2,63.6,40.4,70.6C27.6,77.5,13.8,81.3,-0.6,82.4C-15.1,83.5,-30.2,81.8,-43.3,74.9C-56.4,68,-67.6,55.9,-75.7,42.1C-83.8,28.3,-88.9,14.1,-89.1,-0.1C-89.4,-14.4,-84.9,-28.7,-76.3,-40.7C-67.6,-52.7,-54.9,-62.4,-41.2,-69.8C-27.5,-77.2,-13.7,-82.3,1.3,-84.5C16.3,-86.7,30.5,-83.6,44.7,-76.4Z" transform="translate(100 100)" />
+      </svg>
+
+      <div class="container hero__container">
+        
+        <div class="hero__content">
+          <div class="hero__glass-pill stagger-group" data-reveal>
+            <span class="hero__glass-dot"></span>
+            <span class="hero__glass-text">Reabilitação & Medicina Integrada</span>
+          </div>
+          
+          <h1 class="hero__headline" data-reveal>
+            Recupere seu <br>
+            <em>movimento.</em><br>
+            Restaure sua vida.
+          </h1>
+          
+          <p class="lead hero__lead" data-reveal>
+            Avaliação personalizada com equipe especializada. Do diagnóstico ao retorno pleno com você em cada etapa da sua jornada.
+          </p>
+          
+          <div class="cta-group stagger-group" data-reveal>
+            <a href="#contato" class="btn-cta-dark">
+              Agende sua consulta
+            </a>
+          </div>
+          
+        </div>
+
+        <div class="hero__visual" data-reveal>
+          <div class="hero__image-wrapper">
+            <img src="assets/images/simbolo-vitalis.png" class="hero__bg-symbol" alt="" aria-hidden="true">
+            
+            <img src="assets/images/hero.png" class="hero__team-img" alt="Profissionais da Clínica Vitalis" loading="eager">
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <section class="trust-bar" aria-label="Estatísticas da Clínica">
+      <div class="container trust-bar__container" data-reveal>
+        
+        <div class="stat-item">
+          <span class="stat-number" data-count="1200" data-prefix="+" data-suffix="">0</span>
+          <span class="stat-label">Pacientes Recuperados</span>
+        </div>
+        
+        <div class="stat-divider"></div>
+        
+        <div class="stat-item">
+          <span class="stat-number" data-count="15" data-prefix="" data-suffix="+">0</span>
+          <span class="stat-label">Especialidades</span>
+        </div>
+        
+        <div class="stat-divider"></div>
+        
+        <div class="stat-item">
+          <span class="stat-number" data-count="98" data-prefix="" data-suffix="%">0</span>
+          <span class="stat-label">De Satisfação</span>
+        </div>
+        
+        <div class="stat-divider"></div>
+        
+        <div class="stat-item">
+          <span class="stat-number" data-count="2010" data-prefix="" data-suffix="">0</span>
+          <span class="stat-label">Desde o Ano</span>
+        </div>
+
+      </div>
+    </section>
+    <section id="solucoes" class="problem-solution section-padding">
+      <div class="container problem-solution__container">
+        
+        <div class="problem-content" data-reveal>
+          <span class="eyebrow">Você está passando por isso?</span>
+          <h2 class="section-title">A dor não precisa ser <br>sua companheira de rotina.</h2>
+          
+          <ul class="problem-list">
+            <li>
+              <span class="bullet"></span>
+              Dor crônica que limita seus movimentos diários.
+            </li>
+            <li>
+              <span class="bullet"></span>
+              Pós-cirúrgico sem a evolução e o acompanhamento esperados.
+            </li>
+            <li>
+              <span class="bullet"></span>
+              Lesões esportivas que insistem em não cicatrizar completamente.
+            </li>
+            <li>
+              <span class="bullet"></span>
+              Sensação de que nenhum tratamento traz alívio duradouro.
+            </li>
+          </ul>
+        </div>
+
+        <div class="solution-card" data-reveal>
+          <h3 class="solution-card__title">Abordagem Vitalis</h3>
+          <p class="solution-card__text">
+            Nós não tratamos apenas o sintoma, mapeamos a raiz do seu problema. 
+            Nossa metodologia de <strong class="text-mint">Medicina Integrada</strong> une fisioterapia avançada, precisão clínica e acolhimento humano para restaurar sua autonomia.
+          </p>
+          
+          <a href="https://wa.me/5511999999999" target="_blank" class="btn-cta-primary btn-solution">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Agendar Avaliação
+          </a>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="especialidades" class="specialties section-padding">
+      <div class="container specialties__container">
+        
+        <div class="specialties__header" data-reveal>
+          <span class="eyebrow">Nossos Tratamentos</span>
+          <h2 class="section-title">Especialidades <br>em <span class="text-mint">foco</span>.</h2>
+        </div>
+
+        <div class="specialties__grid stagger-group">
+          
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="assets/images/fisioterapia-ortopedica.jpg" alt="Fisioterapia Ortopédica" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Fisioterapia Ortopédica</h3>
+              <p class="specialty-card__desc">Recuperação de lesões articulares, musculares e pós-operatórios com técnicas baseadas em evidências.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="assets/images/reabilitacao-neurologica.jpg" alt="Reabilitação Neurológica" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Reabilitação Neurológica</h3>
+              <p class="specialty-card__desc">Estímulo neuromotor focado na devolução da autonomia e qualidade de vida para pacientes neurológicos.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="assets/images/acupuntura-clinica.jpg" alt="Acupuntura Clínica" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Acupuntura Clínica</h3>
+              <p class="specialty-card__desc">Alívio de dores crônicas e reequilíbrio energético integrando sabedoria milenar e ciência.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&q=80" alt="Medicina do Esporte" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Medicina do Esporte</h3>
+              <p class="specialty-card__desc">Prevenção de lesões e otimização de performance para atletas amadores e profissionais.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80" alt="Pilates Terapêutico" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Pilates Terapêutico</h3>
+              <p class="specialty-card__desc">Fortalecimento do core e correção postural com acompanhamento fisioterapêutico individualizado.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+          <a href="#" class="specialty-card" data-reveal>
+            <div class="specialty-card__image-box">
+              <img src="assets/images/osteopatia.jpg" alt="Osteopatia" loading="lazy">
+              <div class="specialty-card__overlay"></div>
+            </div>
+            <div class="specialty-card__content">
+              <h3 class="specialty-card__title">Osteopatia</h3>
+              <p class="specialty-card__desc">Terapia manual focada na integridade estrutural e funcional do corpo para restaurar a saúde global.</p>
+              <span class="specialty-card__link">Saiba Mais &rarr;</span>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="specialties__action" data-reveal>
+          <a href="#" class="btn-ghost-teal">Ver Todas as Especialidades</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="sobre" class="about section-padding">
+      <div class="container about__container">
+        
+        <div class="about__content" data-reveal>
+          <span class="eyebrow">Por que a Vitalis?</span>
+          <h2 class="section-title text-white">
+            Uma clínica construída em torno <em>de você</em>.
+          </h2>
+          
+          <ul class="about__list stagger-group">
+            
+            <li class="about__item" data-reveal>
+              <div class="about__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+              </div>
+              <div class="about__text">
+                <h3 class="about__item-title">Tecnologia de Ponta</h3>
+                <p class="about__item-desc">Equipamentos de última geração aliados às técnicas mais avançadas de reabilitação global.</p>
+              </div>
+            </li>
+            
+            <li class="about__item" data-reveal>
+              <div class="about__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div class="about__text">
+                <h3 class="about__item-title">Equipe Multidisciplinar</h3>
+                <p class="about__item-desc">Médicos, fisioterapeutas e osteopatas trabalhando juntos no seu diagnóstico e tratamento.</p>
+              </div>
+            </li>
+            
+            <li class="about__item" data-reveal>
+              <div class="about__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div class="about__text">
+                <h3 class="about__item-title">Acolhimento Premium</h3>
+                <p class="about__item-desc">Um ambiente desenhado para o seu conforto, sem a frieza dos hospitais ou clínicas tradicionais.</p>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="about__visual" data-reveal>
+          <div class="about__image-wrapper">
+            <img src="assets/images/doutor.jpg" alt="Foto Oficial do Doutor da Clínica Vitalis" loading="lazy">
+          </div>
+          
+          <div class="about__badge">
+            <span class="about__badge-number">+10</span>
+            <span class="about__badge-text">Anos de<br>Excelência</span>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="equipe" class="team section-padding">
+      <div class="container team__container">
+        
+        <div class="team__header" data-reveal>
+          <span class="eyebrow">Corpo Clínico</span>
+          <h2 class="section-title">Especialistas dedicados <br>à sua <span class="text-mint">recuperação</span>.</h2>
+        </div>
+
+        <div class="team__grid stagger-group">
+          
+          <div class="team-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=200&q=80" alt="Dra. Helena Costa" class="team-card__photo" loading="lazy">
+            <h3 class="team-card__name">Dra. Helena Costa</h3>
+            <p class="team-card__role">Fisioterapeuta Ortopédica</p>
+            <span class="team-card__reg">CREFITO 12345-F</span>
+            <a href="#" class="team-card__link">Saiba Mais &rarr;</a>
+          </div>
+
+          <div class="team-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=200&q=80" alt="Dr. Roberto Almeida" class="team-card__photo" loading="lazy">
+            <h3 class="team-card__name">Dr. Roberto Almeida</h3>
+            <p class="team-card__role">Médico do Esporte</p>
+            <span class="team-card__reg">CRM 98765 / RQE 1234</span>
+            <a href="#" class="team-card__link">Saiba Mais &rarr;</a>
+          </div>
+
+          <div class="team-card" data-reveal>
+            <img src="assets/images/dr-marina.jpg" alt="Dra. Marina Silva" class="team-card__photo" loading="lazy">
+            <h3 class="team-card__name">Dra. Marina Silva</h3>
+            <p class="team-card__role">Acupunturista Clínica</p>
+            <span class="team-card__reg">CREFITO 54321-F</span>
+            <a href="#" class="team-card__link">Saiba Mais &rarr;</a>
+          </div>
+
+          <div class="team-card" data-reveal>
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=200&q=80" alt="Dr. Carlos Mendes" class="team-card__photo" loading="lazy">
+            <h3 class="team-card__name">Dr. Carlos Mendes</h3>
+            <p class="team-card__role">Osteopata D.O.</p>
+            <span class="team-card__reg">CREFITO 67890-F</span>
+            <a href="#" class="team-card__link">Saiba Mais &rarr;</a>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials section-padding">
+      <div class="container testimonials__container" data-reveal>
+        
+        <div class="testimonials__header">
+          <span class="eyebrow">Histórias Reais</span>
+          <h2 class="section-title">O que dizem nossos <br><span class="text-mint">pacientes</span>.</h2>
+        </div>
+
+        <div class="slider-wrapper">
+          
+          <div class="slider-track-container">
+            <ul class="slider-track">
+              
+              <li class="slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                  <p class="testimonial-card__text">
+                    "Cheguei na Vitalis com uma dor crônica na lombar de anos. A abordagem integrada deles mudou minha vida. Hoje voltei a correr e não sinto mais nada. Atendimento impecável."
+                  </p>
+                  <div class="testimonial-card__author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Foto do Paciente" class="author-avatar" loading="lazy">
+                    <div class="author-info">
+                      <h4 class="author-name">Marcos Silva</h4>
+                      <span class="author-treat">Fisioterapia Ortopédica</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                  <p class="testimonial-card__text">
+                    "O acolhimento é surreal. Você não se sente em uma clínica fria. O ambiente e os profissionais, especialmente a Dra. Helena, me ajudaram muito na minha reabilitação pós-cirúrgica."
+                  </p>
+                  <div class="testimonial-card__author">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80" alt="Foto da Paciente" class="author-avatar" loading="lazy">
+                    <div class="author-info">
+                      <h4 class="author-name">Camila Fernandes</h4>
+                      <span class="author-treat">Pós-operatório</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                  <p class="testimonial-card__text">
+                    "Faço sessões de Osteopatia e Acupuntura toda semana. O alívio nas minhas tensões e enxaquecas foi imediato. A Vitalis virou meu santuário de bem-estar na rotina corrida."
+                  </p>
+                  <div class="testimonial-card__author">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80" alt="Foto da Paciente" class="author-avatar" loading="lazy">
+                    <div class="author-info">
+                      <h4 class="author-name">Juliana Costa</h4>
+                      <span class="author-treat">Osteopatia & Acupuntura</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                  <p class="testimonial-card__text">
+                    "Excelente estrutura. Faço Medicina do Esporte com o Dr. Roberto e preveni muitas lesões na minha preparação para o Triathlon. Recomendo para qualquer atleta amador."
+                  </p>
+                  <div class="testimonial-card__author">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Foto do Paciente" class="author-avatar" loading="lazy">
+                    <div class="author-info">
+                      <h4 class="author-name">Felipe Albuquerque</h4>
+                      <span class="author-treat">Medicina do Esporte</span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" aria-label="Depoimento Anterior">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div class="slider-dots">
+              </div>
+            <button class="slider-btn next-btn" aria-label="Próximo Depoimento">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      
+      <svg class="cta-band__bg-shape shape-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="100" />
+      </svg>
+      <svg class="cta-band__bg-shape shape-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,100 a100,100 0 0,1 200,0" />
+      </svg>
+
+      <div class="container cta-band__container" data-reveal>
+        <h2 class="cta-band__title">Pronto para dar o primeiro passo?</h2>
+        <p class="cta-band__lead">Agende sua avaliação gratuita agora. Sem filas, sem burocracia.</p>
+        
+        <div class="cta-band__actions stagger-group">
+          <a href="https://wa.me/5511999999999" target="_blank" class="btn-whatsapp-white" data-reveal>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Falar no WhatsApp
+          </a>
+          
+          <a href="tel:+5511999999999" class="btn-ghost-white" data-reveal>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Ligar Agora
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact section-padding">
+      <div class="container contact__container">
+        
+        <div class="contact__form-wrapper" data-reveal="fade-right">
+          <span class="eyebrow">Fale Conosco</span>
+          <h2 class="section-title text-white">Agende sua <span class="text-mint">avaliação</span></h2>
+          
+          <form id="contactForm" class="contact__form">
+            
+            <div class="form-group">
+              <label for="nome" class="sr-only">Nome Completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu Nome Completo" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="telefone" class="sr-only">Telefone / WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="Seu WhatsApp" required maxlength="15">
+            </div>
+            
+            <div class="form-group">
+              <label for="assunto" class="sr-only">Assunto de Interesse</label>
+              <select id="assunto" name="assunto" required>
+                <option value="" disabled selected>Qual o seu interesse?</option>
+                <option value="Fisioterapia">Fisioterapia Ortopédica</option>
+                <option value="Osteopatia">Osteopatia</option>
+                <option value="Acupuntura">Acupuntura Clínica</option>
+                <option value="Outros">Outro Assunto / Dúvida</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mensagem" class="sr-only">Sua Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar você hoje?" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">
+              Enviar Mensagem pelo WhatsApp
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+            
+          </form>
+        </div>
+
+        <div class="contact__info-wrapper" data-reveal="fade-left">
+          
+          <ul class="contact__info-list stagger-group">
+            <li class="contact__info-item" data-reveal>
+              <div class="contact__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact__details">
+                <strong>Endereço</strong>
+                <span>Av. Paulista, 1500 - Bela Vista, São Paulo - SP</span>
+              </div>
+            </li>
+            
+            <li class="contact__info-item" data-reveal>
+              <div class="contact__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="contact__details">
+                <strong>Horário de Atendimento</strong>
+                <span>Seg a Sex: 08h às 20h | Sáb: 08h às 14h</span>
+              </div>
+            </li>
+            
+            <li class="contact__info-item" data-reveal>
+              <div class="contact__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact__details">
+                <strong>Contatos Rápidos</strong>
+                <span>WhatsApp: (11) 99999-9999<br>Telefone: (11) 3333-3333</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact__map" data-reveal>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975762031046!2d-46.658688485022295!3d-23.561332284682496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1683050000000!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de localização da Clínica Vitalis"></iframe>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      
+      <div class="footer__brand">
+        <a href="#" class="logo footer__logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="logo__icon">
+            <path d="M2 12h4l1.5-3.5 1.5 7 1.5-10.5 1.5 14L15 12h7"></path>
+          </svg>
+          <div class="logo__text">
+            <span class="logo__title">Vitalis</span>
+          </div>
+        </a>
+        <p class="footer__desc">
+          Santuário de restauração. Unindo ciência e acolhimento humano para devolver sua autonomia e qualidade de vida.
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navegação do Rodapé">
+        <h4 class="footer__title">Navegação</h4>
+        <ul class="footer__links">
+          <li><a href="#solucoes">Nossas Especialidades</a></li>
+          <li><a href="#sobre">A Clínica</a></li>
+          <li><a href="#equipe">Corpo Clínico</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <h4 class="footer__title">Acompanhe a Vitalis</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram da Vitalis" class="social-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" aria-label="Facebook da Vitalis" class="social-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn da Vitalis" class="social-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-container">
+        <span>&copy; 2026 Clínica Vitalis. Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511999999999" target="_blank" class="fab-whatsapp" aria-label="Falar pelo WhatsApp agora">
+    <div class="fab-whatsapp__tooltip">Agendar pelo WhatsApp</div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
